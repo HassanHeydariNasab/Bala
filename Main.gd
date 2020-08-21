@@ -1,13 +1,17 @@
 extends Node2D
 
-onready var Player = $Player
-onready var Player__Move = $Player/Move
+onready var LevelNumber = $LevelNumber
+onready var Player = $Level/Player
+onready var Player__Move = $Level/Player/Move
+
 
 func _ready():
-	pass
+	LevelNumber.set_text(str(G.level))
+
 
 func _process(delta):
 	pass
+
 
 func _input(event):
 	if event is InputEventScreenDrag or event is InputEventScreenTouch or event is InputEventMouseMotion:

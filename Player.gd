@@ -12,10 +12,10 @@ func _ready():
 	pass
 
 func _draw():
-	draw_circle(Vector2(0,0), 50, Color(1,1,1,1))
+	draw_circle(Vector2(0,0), 50, Color("#37474F"))
 	draw_arc(
 		Vector2(0,0), 50, 0, (health/HEALTH)*2.0*PI,
-		32, Color('#64DD17'), 10.0
+		32, Color('#90A4AE'), 10.0
 	)
 
 func _on_Player_area_entered(area):

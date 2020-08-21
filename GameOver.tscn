@@ -21,6 +21,7 @@ margin_top = -118.5
 margin_right = 155.5
 margin_bottom = -41.5
 custom_fonts/font = ExtResource( 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 text = "Game Over"
 __meta__ = {
 "_edit_use_anchors_": false
@@ -37,6 +38,7 @@ margin_right = 271.5
 margin_bottom = 218.5
 rect_scale = Vector2( 0.6, 0.6 )
 custom_fonts/font = ExtResource( 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 text = "Tap to restart"
 align = 1
 valign = 1

@@ -4,9 +4,11 @@
 
 [node name="Bullet" type="Area2D"]
 scale = Vector2( 0.3, 0.3 )
+collision_layer = 4
 script = ExtResource( 1 )
 
 [node name="Look" type="Polygon2D" parent="."]
+color = Color( 0.129412, 0.129412, 0.129412, 1 )
 polygon = PoolVector2Array( -20, -20, -20, 20, 20, 30, 70, 0, 20, -30 )
 
 [node name="MoveInterval" type="Timer" parent="."]

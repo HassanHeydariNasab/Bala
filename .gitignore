@@ -1,0 +1,9 @@
+# Godot-specific ignores
+.import/
+
+# System/tool-specific ignores
+.directory
+*~
+
+# build
+build
