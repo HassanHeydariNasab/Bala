@@ -12,11 +12,11 @@ position = Vector2( 300, 100 )
 [node name="Bullets" type="Node2D" parent="."]
 
 [node name="Shooter" parent="." instance=ExtResource( 6 )]
-position = Vector2( 462.853, 319.777 )
+position = Vector2( 295.853, 345.777 )
 rotation = 3.14159
 
 [node name="Shooter2" parent="." instance=ExtResource( 6 )]
-position = Vector2( 160.749, 694.89 )
+position = Vector2( 458.749, 683.89 )
 
 [node name="Player" parent="." instance=ExtResource( 4 )]
 position = Vector2( 300, 900 )

@@ -4,9 +4,15 @@ onready var LevelNumber = $LevelNumber
 onready var Player = $Level/Player
 onready var Player__Move = $Level/Player/Move
 
+func _init():
+	var Level = load('res://Levels/Level_'+str(G.level)+'.tscn')
+	var Level_ = Level.instance()
+	self.add_child(Level_)
+
 
 func _ready():
 	LevelNumber.set_text(str(G.level))
+	
 
 
 func _process(delta):
